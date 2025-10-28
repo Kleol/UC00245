@@ -1,13 +1,14 @@
-<h2>Exercícios TypeScript -- Aula01</h2>
-
-<p>Clica no botão abaixo para executar os exercícios e ver os resultados.</p>
+<h2>Exercícios TypeScript -- Aula02</h2>
 
 <button (click)="exerciciosParaFazer()">Executar Exercícios</button>
 
 <hr>
 
 <ul>
-  <li *ngFor="let linha of outputs">{{ linha }}</li>
+  @for (linha of outputs; track linha) {
+    <li>{{ linha }}</li>
+  }
 </ul>
 
-<p><small>💻 Também podes ver os resultados no <strong>console</strong> (F12 → Aba “Console”).</small></p>
+
+<p><small>Pssst... podes ver os resultados no <strong>console</strong> (F12 → Aba “Console”).</small></p>
