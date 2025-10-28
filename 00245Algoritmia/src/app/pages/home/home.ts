@@ -18,6 +18,7 @@ export class Home implements OnInit {
     this.exemploVariaveisETipos();
     this.exemploVariaveisETipos2();
     this.exemploOperadoresAritmeticos();
+    this.exemploOperadoresComparacao();
   }
 
 // ======================================================
@@ -74,7 +75,25 @@ exemploVariaveisETipos(): void {
   }
 
 
-
+    /* Operadores de  comparação  -- aula 03 */ 
+ 
+  exemploOperadoresComparacao(): void {
+    console.log('\n🧩 3️⃣ OPERADORES DE COMPARAÇÃO');
+    console.log('--------------------------------');
+ 
+    // 📘 Exemplo de código:
+ 
+    let x = 5;
+    let y = 10;
+ 
+    console.log(x === y); // Igualdade  -- 3 iguais ele compara os valores, compara por tipo 
+    console.log(x != y); // Diferença
+    console.log(x > y); // Maior que
+    console.log(x < y); // Menor que
+    console.log(x >= y); // Maior ou igual
+    console.log(x <= y); // Menor ou igual
+ 
+  }
 
 
 }

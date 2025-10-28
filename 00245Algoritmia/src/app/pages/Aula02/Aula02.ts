@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
   selector: 'app-ex1',
   standalone: true,
 
-  templateUrl: './ex1.html',
-  styleUrls: ['./ex1.css']
+  templateUrl: './Aula02.html',
+  styleUrls: ['./Aula02.css']
 })
-export class Ex1Component {
+export class Aula02Component {
   outputs: string[] = [];
 
 
