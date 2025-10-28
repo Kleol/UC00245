@@ -52,7 +52,7 @@ exerciciosParaFazer = () => {
   let largura: number = 8;
   let altura: number = 4;
   let area: number = largura * altura;
-  console.log(`Área do retângulo: ${area}`); // corrigido: usa crase (`) e não aspas normais
+  console.log(`Área do retângulo: ${area}`); 
 
   console.log('\nExercício 6: Mostre o resto da divisão de 20 por 6.');
 
