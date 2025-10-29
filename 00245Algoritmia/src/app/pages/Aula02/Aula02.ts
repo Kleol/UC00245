@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-ex1',
+  selector: 'app-Aula02',
   standalone: true,
 
   templateUrl: './Aula02.html',
